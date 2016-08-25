@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fx:id="cambiarEstadoPane" prefViewportHeight="651.0" prefViewportWidth="1445.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="alumnos.CambioEstadoMatriculaController">
+   <content>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="113.0" layoutY="439.0" text="Estado:">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <ComboBox layoutX="431.0" layoutY="511.0" prefHeight="25.0" prefWidth="288.0" />
+            <Label layoutX="118.0" layoutY="508.0" prefHeight="35.0" prefWidth="233.0" text="Seleccione el estado:">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Button layoutX="624.0" layoutY="585.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="163.0" text="Cambiar" />
+            <Label layoutX="114.0" layoutY="364.0" text="Matricula: ">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="116.0" layoutY="293.0" text="Nombre:">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Button layoutX="457.0" layoutY="209.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="173.0" text="Buscar" />
+            <RadioButton layoutX="1214.0" layoutY="138.0" mnemonicParsing="false" text="Por matricula" />
+            <RadioButton layoutX="920.0" layoutY="142.0" mnemonicParsing="false" text="Por Cedula" />
+            <RadioButton layoutX="1058.0" layoutY="143.0" mnemonicParsing="false" text="Por nombres" />
+            <Label layoutX="126.0" layoutY="142.0" prefHeight="19.0" prefWidth="83.0" text="Busqueda:" />
+            <TextField layoutX="299.0" layoutY="141.0" prefHeight="25.0" prefWidth="562.0" />
+            <Label layoutX="494.0" layoutY="8.0" prefHeight="50.0" prefWidth="673.0" text="Cambio de Estado de Matricula" textAlignment="CENTER" underline="true">
+               <font>
+                  <Font name="Arabic Typesetting" size="42.0" />
+               </font>
+            </Label>
+            <Button layoutX="683.0" layoutY="212.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="205.0" text="Cancelar" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

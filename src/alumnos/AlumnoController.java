@@ -29,6 +29,7 @@ public class AlumnoController implements Initializable {
     /**
      * Initializes the controller class.
      */
+    
     @FXML
     public Pane loaderPane;
     
